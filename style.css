@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+.all{
+    width: 100%;
+    height:  900px;
+    display: flex;
+    justify-content: center;
+}
+
+.olist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    width: 450px;
+    height: 500px;
+}
+.list1{
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+li{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.Ordered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+.ulist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 450px;
+    height: 500px;
+}
+.list2{
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(226, 223, 223);
+    display: flex;
+    align-items: center;
+}
+
+.Unordered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
